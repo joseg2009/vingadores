@@ -1,0 +1,79 @@
+h1{
+    background-color: rgb(255, 255, 0);
+    border-radius: 9px;
+    width: 800px;
+    text-align: center;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+#menu{
+    border: solid 3px rgb(219, 89, 89);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: auto;
+    background-image: url(../imagem/vin.gif);
+    width: 100vw;
+    opacity: 0.8;
+}
+
+#menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(70, 65, 65);
+    font-weight: 900;
+
+}
+#menu a:hover{
+    color: rgb(168, 154, 154);
+    font-size: 35px;
+    transition: 0.6s;
+
+}
+.herois{
+    border: solid 3px rgb(38, 255, 0) ;
+    min-height: 100vh;
+
+}
+#homemferro{
+    background-color: rgb(160, 214, 160);
+
+}
+#homemferro img{
+    display: block;
+    margin: auto;
+    width: 50vw;
+}
+#capitalamerica{
+    background-color: rgb(78, 192, 231);
+   
+}
+#capitalamerica img{
+    display: block;
+    margin: auto;
+    width: 50vw;
+}
+#hulk{
+    background-color: rgb(87, 234, 87);
+}
+#hulk img{
+    display: block;
+    margin: auto;
+    width: 50vw; 
+
+}
+#thor{
+    background-color: rgb(220, 76, 76);
+}
+
+#thor img{
+    display: block;
+    margin: auto;
+    width: 50vw; 
+}

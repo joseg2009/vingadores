@@ -1,0 +1,80 @@
+h1{
+    background-color: beige;
+    border-radius: 9px;
+    width: 800px;
+    text-align: center;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+#menu{
+    border: solid 3px red;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: auto;
+    background-image: url(../imagem/thanos.gif);
+    width: 100vw;
+    opacity: 0.8;
+}
+#menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
+
+}
+#menu a:hover{
+    color: red;
+    font-size: 35px;
+    transition: 0.6s;
+
+}
+.herois{
+    border: solid 3px blue ;
+    min-height: 100vh;
+
+}
+#homemferro{
+    background-color: lightcoral;
+
+}
+#homemferro img{
+    display: block;
+    margin: auto;
+    width: 50vw;
+}
+#capitalamerica{
+    background-color: lightblue;
+   
+}
+#capitalamerica img{
+    display: block;
+    margin: auto;
+    width: 50vw;
+}
+#hulk{
+    background-color: lightgreen;
+}
+#hulk img{
+    display: block;
+    margin: auto;
+    width: 50vw; 
+
+}
+#thor{
+    background-color: lightgray;
+}
+
+#thor img{
+    display: block;
+    margin: auto;
+    width: 50vw; 
+}
+
+
